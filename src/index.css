@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap');
+
+:root {
+  --azul-marinho: #0a1f44;
+  --azul-principal: #1e5bd8;
+  --azul-claro: #e8f0fe;
+  --azul-borda: #c3d1ea;
+  --branco: #ffffff;
+  --preto: #0a0a0a;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", system-ui, -apple-system, Arial, sans-serif;
+  color: var(--preto);
+  background: var(--azul-claro);
+}
+
+.fonte {
+  font-family: "Segoe UI", system-ui, -apple-system, Arial, sans-serif;
+}
+
+
+.backgroundColorBlueDark {
+  background-color: #0a1f44;
+}
+
+.backgroundColorBlueWhite {
+  background-color: #e8f0fe;
+}
+
+.backgroundColorBlue {
+  background-color: #1e5bd8;
+}
+
+
+
+/* Testo transparente */
+.text-primary {
+  --bs-text-opacity: 1;
+  color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
+}
+
+/* Hover button dark */
+
+
+.btn-dark--hover:hover {
+  background-color: #010232;
+  border-color: #000000;
+  color: rgb(111, 111, 111);
+}
+
+.Titulo {
+  display: grid;
+  grid-template-columns: 130px 110px 1fr 100px 80px 110px;
+  align-items: center;
+  gap: 12px;
+  padding: 16px 20px;
+  border-bottom: 1px solid var(--azul-borda);
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.Titulo p {
+  margin: 0;
+}
+
+input:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+select:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+/* aq não conta */
